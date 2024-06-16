@@ -3,7 +3,7 @@ this package will help you to inject dependencies into instantiated network obje
 # IMPORTANT !!!
 1. all network objects that you need to spawn with injection ability must be added into NetworkPrefabsInstaller and removed from default network prefabs list
 2. spawn network objects with injection ability ONLY USING NetworkManager.SpawnManager.InstantiateAndSpawn() !!! if you just instantiate gameobject and then call spawn injection will not work (idk why =) )
-3. required zenject and netcode installed
+3. required zenject, netcode and multiplayer tools installed
 # how to use
 1. import unitypackage and drag ZenjectInstallers prefab on scene
 2. create zenject project and scene contexts, create networkmanager
