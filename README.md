@@ -1,5 +1,5 @@
 # Netcode-Zenject-Fix
-this package will help you to inject dependencies into instantiated network objects. you can test working system by opening test scene.
+this package will help you to inject dependencies into instantiated network objects. you can test this system by opening test scene.
 # IMPORTANT !!!
 1. all network objects that you need to spawn with injection ability must be added into NetworkPrefabsInstaller and removed from default network prefabs list
 2. spawn network objects with injection ability ONLY USING NetworkManager.SpawnManager.InstantiateAndSpawn() !!! if you just instantiate gameobject and then call spawn injection will not work (idk why =) )
